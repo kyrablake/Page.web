@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>index</title>
+    <meta charset="UTF-8">
+    <meta charset="iso-8859-1">
+    <meta name="description" content="Ejemplo de HTML5">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Front_end/script/css/index.css" />
+
+
+</head>
+
+<body>
+    <header class="Cabecera" id="cabecera-menu">
+        <div class="Logotipo container">
+
+            <img  alt="" src="images/logo3_lectulandia.png">
+
+            <h1 class="title-cabecera">Animando Lectulandia</h1>
+
+            <a class="hasta-final" name="inicio" href="#final">Deslizarse al final</a>
+
+        </div>
+
+
+        <nav class="menu">
+            <ul class="lista">
+                <li><a href="#"> Acerca de</a></li>
+                <li><a href="#"> Menu</a></li>
+                <li><a href="#">Servicios</a> </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="main">
+        <section class="articulos">
+            <article name=MKNRart>
+                <header class="sinopsis">
+                    <h3 class="titulo"><a name=MKNRi href="Front_end/script/html/MKNR.html">Mahouka Koukou No Rettousei</a></h3>
+                </header>
+                <figure>
+                    <img src="Front_end/imagenes/images.jpg" width="400" height="400">
+                    <figcaption><mark>Mahouka Koukou No Rettousei</mark></figcaption>
+                </figure>
+                <p class="sinopsis" id="MKNR">Sinopsis de Mahouka Koukou No Rettousei </p>
+                <time datetime="13-01-2022" pubdate>publicado 13-01-2022</time>
+            </article>
+            <article name=NGNLart>
+                <header class="sinopsis">
+                    <h6 class="titulo"><a name=NGNLi href="Front_end/script/html/NGNL.html">No Game No Life </a></h6>
+                </header class="sinopsis">
+                <figure>
+                    <img src="Front_end/imagenes/512323.jpg" width="400" height="400">
+                    <figcaption> <mark>No game no Life</mark> </figcaption>
+                </figure>
+                <p class="sinopsis" id="NGNL"> Sinopsis de No Game No Life</p>
+                <time datetime="13-01-2022" pubdate>publicado 13-01-2022</time>
+            </article>
+            <article name=Toradorart>
+                <header class="sinopsis">
+                    <h4 class="titulo"><a name=Toradorai href="Front_end/script/html/Toradora.html">Toradora </a></h4>
+                </header>
+                <figure>
+                    <img src="Front_end/imagenes/389569.jpg" width="400" height="400">
+                    <figcaption><mark>Toradora</mark></figcaption>
+                </figure>
+                <p class="sinopsis" id="toradora">Sinopsis de Toradora</p>
+                <time datetime="13-01-2022" pubdate>publicado 13-01-2022</time>
+            </article>
+            <article name=TKAart>
+                <header class="sinopsis">
+                    <h5 class="titulo"><a name=TKAi href="Front_end/script/html/TKA.html">The King Avatar </a></h5>
+                </header>
+                <figure>
+                    <img src="Front_end/imagenes/tka.jpg" width=400 height="400">
+                    <figcaption><mark>The King Avatar</mark></figcaption>
+                </figure>
+                <p class="sinopsis" id="tka">sinpsis de tka</p>
+                <time datetime="13-01-2022" pubdate>publicado 13-01-2022</time>
+            </article>
+            <article name TCFart>
+                <header class="sinopsis">
+                    <h2 class="titulo"> <a name="TCFi" href="Front_end/script/html/TCF.html">El hijo basura del conde </a> </h2>
+                </header class="sinopsis">
+                <figure>
+                    <img src="Front_end/imagenes/18ac1dd13faad08679e63a707bed1a91.jpg" width="400" height="400">
+                    <figcaption> <mark>El hijo basura del conde</mark> </figcaption>
+                </figure>
+                <p class="sinopsis" id="tcf">SINOPSIS DE TCF</p>
+                <time datetime="13-01-2022" pubdate>publicado 13-01-2022</time>
+            </article>
+        </section>
+
+        <aside class="lateral">
+            <div>
+            </div>
+            <ul class="lista">Encontramos:
+                <li><a class="titulo" name=indMKNR href="#MKNRi">Mahouka Koukou No Rettousei</a> </li>
+                <li><a class="titulo" name=indNGNL href="#NGNLi">No Game No Life</a></li>
+                <li><a class="titulo" name=indToradora href="#Toradorai">Toradora</a></li>
+                <li><a class="titulo" name=indTKA href="#TKAi">The King Avatar</a></li>
+                <li><a class="titulo" name=indTCF href="#TCFi">El hijo basura del conde</a></li>
+            </ul>
+            <address>Cualquier duda:
+                <a href="script/html/f_dudas.xhtml">
+                    <acronym title="Tu admintradora: kyrablacke@nauta.cu"><strong>Kyrablacke</strong> </acronym>
+                </a>
+    
+                ¿Quiere registrarse?
+                <a href="Front_end/script/html/f_registro.html">
+                    <input type="button" class="boton" id="registrar" value="registrar" onclick="" />
+                    <acronym title="Bienvenido a la comunidad"><strong>Login</strong> </acronym>
+                </a>
+                </br>
+                Te gusta el sitio?
+                <a href="Front_end/script/html/f_tendencia.html">
+                    <input type="button" id="like" value="Me gusta" class="boton">
+                </a>
+            </address>
+        </aside>
+    </section>
+    
+    <footer class="pie">
+        <div> </div>
+            <a name="final" href="#inicio">deslizarse al inicio</a>
+            <p> comentarios (0) </p>
+            <noscript>
+                <small>
+                    <p>Gracias por visitar Animando Lectulandia</p>
+                    <p>La página que estás viendo requiere para su funcionamiento el uso de JavaScript.
+                        Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo.</p>
+                </small>
+            </noscript>
+            <small>Derechos Reservados &copy; 2021-2022</small>
+
+    </footer>
+
+</body>
+
+</html>
