@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+    <link rel="stylesheet" type="text/js" href="../javascript/t_errores.js" />
+    <link rel="stylesheet" type="text/js" href="../javascript/formulario.js" />
+    <link rel="stylesheet" type="text/css" href="../css/formularios.css" />
+    <title>Registro</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <form id="form_registro" name="form_registro" class="formulario" action="#" method="GET">
+            <h1>Datos Personales</h1>
+            <label for="nombrar" id="nombrar">
+                <h4>Nombre:</h4>
+                <input type="text" id="nombreP_input" class="nombre" name="nombre_Propio"
+                    placeholder="Introduzca el nombre..." minlength="2" maxlength="20" />
+                <h3>Apellidos:</h3>
+                <input type="text" id="pAellidos_input" name="1erapellido" value=""
+                    placeholder="Escribe tu primer Apellido..." class="nombre" />
+                <input type="text" id="sApellido_input" name="2doapellido" value=""
+                    placeholder="Escribe tu segundo Apellido..." class="nombre" />
+            </label>
+            <div class="sexo_radio">
+                <h2>Sexo</h2>
+                <input type="radio" class="radio" id="mujer" name="sexo" />
+                <label for="mujer">Mujer</label>
+                <input type="radio" class="radio" id="hombre" name="sexo" />
+                <label for="hombre">Hombre</label>
+                <input type="radio" class="radio" id="otros" name="sexo" />
+                <label for="otros">Otros</label>
+            </div>
+            <div class="edad_select">
+                <label for="edad">Edad:</label>
+                <input type="text" id="edad" name="edad" size="3" maxlength="2">
+            </div>
+            <label for="contacto" id="contacto">
+                <legend>Usuario o Alias</legend>
+                <input type="text" id="alias" name="usuario" value="" placeholder="introduzca su alias o nombre de usuario" />
+                <legend>Contraseña</legend>
+                <input type="password" name="contrasena" value="" placeholder="introduzca su contraseña" id="password" />
+                <legend>Confirme la Contraseña</legend>
+                <input type="password" name="contrasena" value="" placeholder="introduzca su contraseña" id="passwordr" />
+            </label>
+            <div class="contacto_radio">
+                <h5>Su registro sera por:</h5>
+                <input type="radio" class="radio" id="email" name="medio" />
+                <label for="email">Correo</label>
+                <input type="radio" class="radio" id="facebook" name="medio" />
+                <label for="facebook">facebook</label>
+                <input type="radio" class="radio" id="telefono" name="medio" />
+                <label for="telefono">Telefono</label>
+            </div>
+            <div class="politica_checkbox">
+                <input type="checkbox" class="checkbox" name="condiciones" id="check_condiciones" />
+                <label for="check_condiciones">He leído y acepto las condiciones</label>
+                <input type="checkbox" class="checkbox" name="privacidad" id="check_privacidad" />
+                <label for="check_privacidad"> He leído la política de privacidad</label>
+            </div>
+            <input type="submit" value="enviar" id="btn-enviar" />
+            <div id="error" ></div>
+        </form>
+    </div>
+    <script src="../javascript/tratar_errores.js"></script>
+
+</body>
+
+</html>
